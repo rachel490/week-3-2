@@ -3,7 +3,7 @@
 <br />
 
 ## 🚀&nbsp;&nbsp;배포 주소
-👉 [배포링크 바로가기](https://react18-swit-messenger.netlify.app)
+👉 [배포링크 바로가기](https://search-nutrients.vercel.app/)
 
 <br />
 
@@ -46,6 +46,10 @@
 
 <br />
 
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/72786354/154731569-20bdcbcc-9f85-4c15-86cf-a0633ebcbbdf.gif)
+
+<br />
+
 ## 🌟&nbsp;&nbsp;리덕스 구조
 - mockdata : 처음에 데이터 통신을 통해 초기값 할당
 - brandList : mockdata에 값이 들어온 뒤 브랜드만 중복없이 추출하여 저장
@@ -62,9 +66,9 @@ const initialState = {
   filterList: {
     products: [] as searchInfo[],
     brands: [] as string[],
-  },
+  }
 
-export interface searchInfo {
+interface searchInfo {
   제품명: string;
   브랜드: string;
 }
@@ -98,7 +102,7 @@ export interface searchInfo {
 ### 협업 툴
 
 - Notion: 팀 아이디어 회의 및 정리 
-    👉 [노션 링크]() 
+    👉 [노션 링크](https://www.notion.so/3-2-61a01f45858d4e82ab07f5ae38bb4ef2) 
 - Figma: UI 구현
     👉 [피그마 링크](https://www.figma.com/file/Q9dD1xPp0UHYdKvx8feNJF/Untitled?node-id=0%3A1) 
 - Discord, Vsc Liveshare: 실시간 소통 및 페어프로그래밍
@@ -175,4 +179,4 @@ export interface searchInfo {
 
 ### 서버 실행
 
-> $ npm start
+> $ npm run dev
